@@ -32,8 +32,8 @@ def main():
         N = int(sys.argv[1])
 
     # initialize some random data
-    A = np.random.randint(0, 10, size=(N,2*N))
-    B = np.random.randint(0, 10, size=(N,N))
+    A = np.random.randint(0, 1000, size=(N,2*N))
+    B = np.random.randint(0, 1000, size=(N,N))
     Y = np.zeros(N, dtype=int)
 
     # main work
